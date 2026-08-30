@@ -12,7 +12,7 @@ class Agentsmd < Formula
   on_macos do
     on_arm do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_darwin_arm64.tar.gz"
-      sha256 "b18c088ff615c21fc1cf4eb075b33bfa021949321a84adca9332bdd953536d2d"
+      sha256 "7ce845c6566cbedd6672a2e787ed67e4dea056ca12136846e0f64b414f12959c"
 
       def install
         bin.install "agentsmd"
