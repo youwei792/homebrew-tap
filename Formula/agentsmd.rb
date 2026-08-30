@@ -20,7 +20,7 @@ class Agentsmd < Formula
     end
     on_intel do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_darwin_amd64.tar.gz"
-      sha256 "440738a8d5ca648aef7e53944c0ab18100faf5efc292d2d79a91e7ac85406903"
+      sha256 "897a4d94cb64e5ed3c35aae5f5a5c2d3443d25eccad7b7a1d92303d74b51b37d"
 
       def install
         bin.install "agentsmd"
@@ -31,7 +31,7 @@ class Agentsmd < Formula
   on_linux do
     on_arm do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_linux_arm64.tar.gz"
-      sha256 "11c47d0d01b6d531a4ce34ce75961af2f4f6f73bf7c5335a6d21466c39f7588a"
+      sha256 "fea173b08d69394eb6859ee3c2074843e44e27bfb59de67a4022ecc37bddd9ff"
 
       def install
         bin.install "agentsmd"
@@ -39,7 +39,7 @@ class Agentsmd < Formula
     end
     on_intel do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_linux_amd64.tar.gz"
-      sha256 "f2c65d694fbca44be6a7930f420c630e00d68ff9a7e9eec319afe08423a577d6"
+      sha256 "7db723edeab99dcc09b7147581a5f801e5725df5998919c526f25bd5e49896d0"
 
       def install
         bin.install "agentsmd"
