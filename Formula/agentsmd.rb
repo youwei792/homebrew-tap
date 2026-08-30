@@ -1,7 +1,7 @@
 class Agentsmd < Formula
   desc "CI for your AI agent's instructions: validate AGENTS.md, bridge CLAUDE.md"
   homepage "https://github.com/youwei792/agentsmd"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   livecheck do
@@ -12,7 +12,7 @@ class Agentsmd < Formula
   on_macos do
     on_arm do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_darwin_arm64.tar.gz"
-      sha256 "7ce845c6566cbedd6672a2e787ed67e4dea056ca12136846e0f64b414f12959c"
+      sha256 "9b4aa2e64a2698be527cbcbc69ff7b1080bc5fb076bc097681dd1308e5768fc1"
 
       def install
         bin.install "agentsmd"
@@ -20,7 +20,7 @@ class Agentsmd < Formula
     end
     on_intel do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_darwin_amd64.tar.gz"
-      sha256 "897a4d94cb64e5ed3c35aae5f5a5c2d3443d25eccad7b7a1d92303d74b51b37d"
+      sha256 "358a0aea12465860b9612f74a7b5d5c12921e97d3aa8739cd142bbd166239104"
 
       def install
         bin.install "agentsmd"
@@ -31,7 +31,7 @@ class Agentsmd < Formula
   on_linux do
     on_arm do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_linux_arm64.tar.gz"
-      sha256 "fea173b08d69394eb6859ee3c2074843e44e27bfb59de67a4022ecc37bddd9ff"
+      sha256 "bbefeb85ec4ba70998630629f714ff6eee1e33ae45220eee84d4abe222a0bbc4"
 
       def install
         bin.install "agentsmd"
@@ -39,7 +39,7 @@ class Agentsmd < Formula
     end
     on_intel do
       url "https://github.com/youwei792/agentsmd/releases/download/v#{version}/agentsmd_linux_amd64.tar.gz"
-      sha256 "7db723edeab99dcc09b7147581a5f801e5725df5998919c526f25bd5e49896d0"
+      sha256 "d408a06b74aaf332d957b8de5e6ca0f54dc8ae3c426edd5699cc99d70b6c802d"
 
       def install
         bin.install "agentsmd"
